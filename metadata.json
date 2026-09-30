@@ -1,0 +1,10 @@
+{
+  "name": "BISA - Bina Interaktif Suara-Aksi",
+  "description": "Platform pembelajaran bina diri interaktif dengan kendali suara BISA Voice Mic dan portal buku penghubung kolaborasi guru SLB dan orang tua.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
