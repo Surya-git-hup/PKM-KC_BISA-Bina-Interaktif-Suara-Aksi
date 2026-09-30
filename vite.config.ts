@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/',
+    base: '/PKM-KC_BISA-Bina-Interaktif-Suara-Aksi/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
