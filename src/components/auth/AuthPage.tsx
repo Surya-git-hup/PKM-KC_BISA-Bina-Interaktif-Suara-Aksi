@@ -628,9 +628,6 @@ export const AuthPage: React.FC<AuthPageProps> = ({
             {/* B. Form Registrasi Guru (Alur diagram: Registrasi guru tanpa verifikasi -> Buat ruang belajar) */}
             {authMode === 'register' && !createdRoomInfo && (
               <form onSubmit={handleTeacherRegister} className="space-y-3.5">
-                <div className="bg-sky-50/60 p-3 rounded-2xl border border-sky-100 text-xs text-sky-900 font-medium">
-                  ✨ <strong>Sesuai Diagram Alur:</strong> Registrasi guru langsung aktif tanpa verifikasi email dan otomatis membuat ruang belajar beserta kode undangan untuk orang tua.
-                </div>
 
                 <div>
                   <label className="block text-xs font-bold text-slate-700 mb-1">
@@ -922,9 +919,6 @@ export const AuthPage: React.FC<AuthPageProps> = ({
             {/* B. Form Registrasi Orang Tua (Alur diagram: Registrasi orang tua: Isi form + kode undangan -> Akun terhubung otomatis) */}
             {authMode === 'register' && (
               <form onSubmit={handleParentRegister} className="space-y-3.5">
-                <div className="bg-emerald-50/60 p-3 rounded-2xl border border-emerald-100 text-xs text-emerald-900 font-medium">
-                  🔗 <strong>Sesuai Diagram Alur:</strong> Isi formulir dan masukkan kode undangan yang Anda terima dari guru kelas untuk terhubung otomatis ke ruang belajar.
-                </div>
 
                 <div>
                   <label className="block text-xs font-bold text-slate-700 mb-1">
